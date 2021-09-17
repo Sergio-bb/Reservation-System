@@ -1,0 +1,1035 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Services.WebApi\\ReservationSystem.Services.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj",
+        "projectName": "ReservationSystem.Application.DTO",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj",
+        "projectName": "ReservationSystem.Application.Interface",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\ReservationSystem.Application.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\ReservationSystem.Application.Main.csproj",
+        "projectName": "ReservationSystem.Application.Main",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\ReservationSystem.Application.Main.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj",
+        "projectName": "ReservationSystem.Domain.Core",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj",
+        "projectName": "ReservationSystem.Domain.Entity",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj",
+        "projectName": "ReservationSystem.Domain.Interface",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj",
+        "projectName": "ReservationSystem.Infrastructure.Interface",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj",
+        "projectName": "ReservationSystem.Infrastructure.Repository",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Services.WebApi\\ReservationSystem.Services.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Services.WebApi\\ReservationSystem.Services.WebApi.csproj",
+        "projectName": "ReservationSystem.Services.WebApi",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Services.WebApi\\ReservationSystem.Services.WebApi.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Services.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Interface\\ReservationSystem.Application.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\ReservationSystem.Application.Main.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.Main\\ReservationSystem.Application.Main.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Core\\ReservationSystem.Domain.Core.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Interface\\ReservationSystem.Domain.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Interface\\ReservationSystem.Infrastructure.Interface.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Infrastructure.Repository\\ReservationSystem.Infrastructure.Repository.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\ReservationSystem.Transversal.Mapper.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\ReservationSystem.Transversal.Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj",
+        "projectName": "ReservationSystem.Transversal.Common",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj",
+        "projectName": "ReservationSystem.Transversal.Logging",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\ReservationSystem.Transversal.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\ReservationSystem.Transversal.Mapper.csproj",
+        "projectName": "ReservationSystem.Transversal.Mapper",
+        "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\ReservationSystem.Transversal.Mapper.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Application.DTO\\ReservationSystem.Application.DTO.csproj"
+              },
+              "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj": {
+                "projectPath": "D:\\Repo\\ReservationSystem\\ReservationSystem\\ReservationSystem.Domain.Entity\\ReservationSystem.Domain.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

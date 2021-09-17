@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageReleaseNotes>Actualizado a .NET Core 3.0</PackageReleaseNotes>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Workspace\Arquitectura .NET\Student\Code\ReservationSystem\ReservationSystem.Services.WebApi\ReservationSystem.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\workspace\ReservationSystem\ReservationSystem.Services.WebApi\ReservationSystem.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReservationSystem.Application.DTO\ReservationSystem.Application.DTO.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Application.Interface\ReservationSystem.Application.Interface.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Application.Main\ReservationSystem.Application.Main.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Domain.Core\ReservationSystem.Domain.Core.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Domain.Entity\ReservationSystem.Domain.Entity.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Domain.Interface\ReservationSystem.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Infrastructure.Interface\ReservationSystem.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Infrastructure.Repository\ReservationSystem.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Transversal.Common\ReservationSystem.Transversal.Common.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Transversal.Logging\ReservationSystem.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Transversal.Mapper\ReservationSystem.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Properties\ServiceDependencies\" />
+  </ItemGroup>
+
+</Project>

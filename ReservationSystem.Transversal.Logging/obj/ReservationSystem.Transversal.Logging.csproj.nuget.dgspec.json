@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj": {}
+  },
+  "projects": {
+    "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj",
+        "projectName": "ReservationSystem.Transversal.Common",
+        "projectPath": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj",
+        "projectName": "ReservationSystem.Transversal.Logging",
+        "projectPath": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\ReservationSystem.Transversal.Logging.csproj",
+        "packagesPath": "C:\\Users\\LENOVO W530\\.nuget\\packages\\",
+        "outputPath": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LENOVO W530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj": {
+                "projectPath": "D:\\ReservationSystem\\ReservationSystem\\ReservationSystem.Transversal.Common\\ReservationSystem.Transversal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
